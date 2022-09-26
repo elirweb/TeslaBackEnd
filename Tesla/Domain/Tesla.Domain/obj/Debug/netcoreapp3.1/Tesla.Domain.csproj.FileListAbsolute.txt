@@ -1,0 +1,10 @@
+C:\projetos\tesla\TeslaBackEnd\Tesla\Domain\Tesla.Domain\bin\Debug\netcoreapp3.1\Tesla.Domain.deps.json
+C:\projetos\tesla\TeslaBackEnd\Tesla\Domain\Tesla.Domain\bin\Debug\netcoreapp3.1\Tesla.Domain.dll
+C:\projetos\tesla\TeslaBackEnd\Tesla\Domain\Tesla.Domain\bin\Debug\netcoreapp3.1\Tesla.Domain.pdb
+C:\projetos\tesla\TeslaBackEnd\Tesla\Domain\Tesla.Domain\obj\Debug\netcoreapp3.1\Tesla.Domain.csproj.AssemblyReference.cache
+C:\projetos\tesla\TeslaBackEnd\Tesla\Domain\Tesla.Domain\obj\Debug\netcoreapp3.1\Tesla.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos\tesla\TeslaBackEnd\Tesla\Domain\Tesla.Domain\obj\Debug\netcoreapp3.1\Tesla.Domain.AssemblyInfoInputs.cache
+C:\projetos\tesla\TeslaBackEnd\Tesla\Domain\Tesla.Domain\obj\Debug\netcoreapp3.1\Tesla.Domain.AssemblyInfo.cs
+C:\projetos\tesla\TeslaBackEnd\Tesla\Domain\Tesla.Domain\obj\Debug\netcoreapp3.1\Tesla.Domain.csproj.CoreCompileInputs.cache
+C:\projetos\tesla\TeslaBackEnd\Tesla\Domain\Tesla.Domain\obj\Debug\netcoreapp3.1\Tesla.Domain.dll
+C:\projetos\tesla\TeslaBackEnd\Tesla\Domain\Tesla.Domain\obj\Debug\netcoreapp3.1\Tesla.Domain.pdb

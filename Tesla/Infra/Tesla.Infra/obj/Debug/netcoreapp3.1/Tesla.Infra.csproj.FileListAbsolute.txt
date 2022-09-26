@@ -1,0 +1,15 @@
+C:\projetos\tesla\TeslaBackEnd\Tesla\Infra\Tesla.Infra\bin\Debug\netcoreapp3.1\Tesla.Infra.deps.json
+C:\projetos\tesla\TeslaBackEnd\Tesla\Infra\Tesla.Infra\bin\Debug\netcoreapp3.1\Tesla.Infra.dll
+C:\projetos\tesla\TeslaBackEnd\Tesla\Infra\Tesla.Infra\bin\Debug\netcoreapp3.1\Tesla.Infra.pdb
+C:\projetos\tesla\TeslaBackEnd\Tesla\Infra\Tesla.Infra\bin\Debug\netcoreapp3.1\Tesla.Domain.dll
+C:\projetos\tesla\TeslaBackEnd\Tesla\Infra\Tesla.Infra\bin\Debug\netcoreapp3.1\Tesla.Util.dll
+C:\projetos\tesla\TeslaBackEnd\Tesla\Infra\Tesla.Infra\bin\Debug\netcoreapp3.1\Tesla.Domain.pdb
+C:\projetos\tesla\TeslaBackEnd\Tesla\Infra\Tesla.Infra\bin\Debug\netcoreapp3.1\Tesla.Util.pdb
+C:\projetos\tesla\TeslaBackEnd\Tesla\Infra\Tesla.Infra\obj\Debug\netcoreapp3.1\Tesla.Infra.csproj.AssemblyReference.cache
+C:\projetos\tesla\TeslaBackEnd\Tesla\Infra\Tesla.Infra\obj\Debug\netcoreapp3.1\Tesla.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos\tesla\TeslaBackEnd\Tesla\Infra\Tesla.Infra\obj\Debug\netcoreapp3.1\Tesla.Infra.AssemblyInfoInputs.cache
+C:\projetos\tesla\TeslaBackEnd\Tesla\Infra\Tesla.Infra\obj\Debug\netcoreapp3.1\Tesla.Infra.AssemblyInfo.cs
+C:\projetos\tesla\TeslaBackEnd\Tesla\Infra\Tesla.Infra\obj\Debug\netcoreapp3.1\Tesla.Infra.csproj.CoreCompileInputs.cache
+C:\projetos\tesla\TeslaBackEnd\Tesla\Infra\Tesla.Infra\obj\Debug\netcoreapp3.1\Tesla.Infra.csproj.CopyComplete
+C:\projetos\tesla\TeslaBackEnd\Tesla\Infra\Tesla.Infra\obj\Debug\netcoreapp3.1\Tesla.Infra.dll
+C:\projetos\tesla\TeslaBackEnd\Tesla\Infra\Tesla.Infra\obj\Debug\netcoreapp3.1\Tesla.Infra.pdb
