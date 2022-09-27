@@ -9,8 +9,7 @@
       "Tesla.IOC/1.0.0": {
         "dependencies": {
           "Tesla.Domain": "1.0.0",
-          "Tesla.Infra": "1.0.0",
-          "Tesla.Service": "1.0.0"
+          "Tesla.Infra": "1.0.0"
         },
         "runtime": {
           "Tesla.IOC.dll": {}
@@ -853,15 +852,6 @@
           "Tesla.Infra.dll": {}
         }
       },
-      "Tesla.Service/1.0.0": {
-        "dependencies": {
-          "Tesla.Domain": "1.0.0",
-          "Tesla.Infra": "1.0.0"
-        },
-        "runtime": {
-          "Tesla.Service.dll": {}
-        }
-      },
       "Tesla.Util/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "3.1.1",
@@ -1488,11 +1478,6 @@
       "sha512": ""
     },
     "Tesla.Infra/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Tesla.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

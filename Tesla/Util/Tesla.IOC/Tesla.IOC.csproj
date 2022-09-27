@@ -7,7 +7,6 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Domain\Tesla.Domain\Tesla.Domain.csproj" />
     <ProjectReference Include="..\..\Infra\Tesla.Infra\Tesla.Infra.csproj" />
-    <ProjectReference Include="..\..\Service\Tesla.Service\Tesla.Service.csproj" />
   </ItemGroup>
 
 </Project>

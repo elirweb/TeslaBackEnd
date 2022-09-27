@@ -3,11 +3,9 @@ C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesl
 C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.IOC.pdb
 C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.Domain.dll
 C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.Infra.dll
-C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.Service.dll
 C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.Util.dll
 C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.Domain.pdb
 C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.Infra.pdb
-C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.Service.pdb
 C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.Util.pdb
 C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\obj\Debug\netcoreapp3.1\Tesla.IOC.csproj.AssemblyReference.cache
 C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\obj\Debug\netcoreapp3.1\Tesla.IOC.GeneratedMSBuildEditorConfig.editorconfig

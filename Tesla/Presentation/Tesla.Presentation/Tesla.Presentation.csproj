@@ -8,8 +8,9 @@
     <ProjectReference Include="..\..\Util\Tesla.IOC\Tesla.IOC.csproj" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.PlatformAbstractions" Version="1.1.0" />
     <PackageReference Include="Microsoft.OpenApi" Version="1.4.2" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="3.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.1" />
   </ItemGroup>

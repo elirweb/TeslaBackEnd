@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using Tesla.Domain.Domain;
 using Tesla.Infra.Context;
 
 namespace Tesla.Infra.Repository
 {
-    public class ProductsRepository : Common.RepositoryBase<Domain.Products>, IDisposable
+    public class ProductsRepository : Common.RepositoryBase<Products>, IDisposable
     {
         public ProductsRepository(EfCore ef) : base(ef)
         {
@@ -16,5 +15,7 @@ namespace Tesla.Infra.Repository
             _context?.Dispose();
             GC.SuppressFinalize(this);
         }
+
+        
     }
 }

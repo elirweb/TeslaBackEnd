@@ -11,6 +11,7 @@ using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Diagnostics;
 using System.Net;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.PlatformAbstractions;
 
 namespace Tesla.Presentation
 {
@@ -22,7 +23,7 @@ namespace Tesla.Presentation
         {
             services.AddHttpClient();
             services.AddDbContext<Util.Connection>(options => options.UseSqlServer(Util.Constant.GetStrinConnection));
-
+            services.AddMvcCore().AddApiExplorer();
             Bootstrap.Register(services);
 
             services.AddCors(options =>
@@ -36,6 +37,63 @@ namespace Tesla.Presentation
                       .AllowAnyOrigin();
                    });
             });
+
+            services.AddSwaggerGen(options =>
+            {
+                options.SwaggerDoc("v1", new OpenApiInfo()
+                {
+                    Version = "v1.1.0",
+                    Title = "Tesla",
+                    Description = "Prova",
+                    TermsOfService = new Uri("https://www.uol.com.br"),
+                    Contact = new OpenApiContact { Email = "elirweb@gmail.com", Name = "Elir", Url = new Uri("https://www.uol.com.br") }
+
+
+                }
+                    );
+
+                options.AddSecurityDefinition(
+                    "Bearer",
+                        new OpenApiSecurityScheme
+                        {
+                            Description =
+                            "JWT Authorization header using the Bearer scheme. \r\n\r\n Enter 'Bearer' [space] and then your token in the text input below.\r\n\r\nExample: \"Bearer 12345abcdef\"",
+                            Name = "Authorization",
+                            In = ParameterLocation.Header,
+                            Type = SecuritySchemeType.ApiKey,
+                            Scheme = "Bearer"
+                        }
+                        );
+
+                options.AddSecurityRequirement(new OpenApiSecurityRequirement()
+                {
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference
+                            {
+                                Type = ReferenceType.SecurityScheme,
+                                Id = "Bearer"
+                            },
+                            Scheme = "oauth2",
+                            Name = "Bearer",
+                            In = ParameterLocation.Header,
+
+                        },
+                        new List<string>()
+                    }
+                });
+
+                var applicationBasePath = PlatformServices.Default.Application.ApplicationBasePath;
+                var applicationName = PlatformServices.Default.Application.ApplicationName;
+                var xmlDocumentPath = Path.Combine(applicationBasePath, $"{applicationName}.xml");
+
+                if (File.Exists(xmlDocumentPath))
+                {
+                    options.IncludeXmlComments(xmlDocumentPath);
+                }
+            });
+
 
             
         }

@@ -39,12 +39,10 @@ C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\bin\Debug\n
 C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\bin\Debug\netcoreapp3.1\Tesla.Domain.dll
 C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\bin\Debug\netcoreapp3.1\Tesla.Infra.dll
 C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\bin\Debug\netcoreapp3.1\Tesla.IOC.dll
-C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\bin\Debug\netcoreapp3.1\Tesla.Service.dll
 C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\bin\Debug\netcoreapp3.1\Tesla.Util.dll
 C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\bin\Debug\netcoreapp3.1\Tesla.IOC.pdb
 C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\bin\Debug\netcoreapp3.1\Tesla.Domain.pdb
 C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\bin\Debug\netcoreapp3.1\Tesla.Infra.pdb
-C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\bin\Debug\netcoreapp3.1\Tesla.Service.pdb
 C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\bin\Debug\netcoreapp3.1\Tesla.Util.pdb
 C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\obj\Debug\netcoreapp3.1\Tesla.Presentation.csproj.AssemblyReference.cache
 C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\obj\Debug\netcoreapp3.1\Tesla.Presentation.GeneratedMSBuildEditorConfig.editorconfig
@@ -58,13 +56,9 @@ C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\obj\Debug\n
 C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\obj\Debug\netcoreapp3.1\Tesla.Presentation.dll
 C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\obj\Debug\netcoreapp3.1\Tesla.Presentation.pdb
 C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\obj\Debug\netcoreapp3.1\Tesla.Presentation.genruntimeconfig.cache
-C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
-C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
-C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
-C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.dll
 C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\obj\Debug\netcoreapp3.1\Tesla.Presentation.MvcApplicationPartsAssemblyInfo.cs
 C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll

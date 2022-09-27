@@ -1,12 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Tesla.Domain.Domain;
 
 namespace Tesla.Infra.Context
 {
     public class EfCore: DbContext
     {
-        public DbSet<Domain.Products> Products { get; set; }
-        public DbSet<Domain.Categories> Categories { get; set; }
-        public DbSet<Domain.FreightTable> FreightTables { get; set; }
+        public DbSet<Products> Products { get; set; }
+        public DbSet<Categories> Categories { get; set; }
+        public DbSet<FreightTable> FreightTables { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

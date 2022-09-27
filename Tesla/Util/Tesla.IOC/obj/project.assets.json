@@ -1466,20 +1466,6 @@
           "bin/placeholder/Tesla.Infra.dll": {}
         }
       },
-      "Tesla.Service/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Tesla.Domain": "1.0.0",
-          "Tesla.Infra": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Tesla.Service.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Tesla.Service.dll": {}
-        }
-      },
       "Tesla.Util/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -5170,11 +5156,6 @@
       "path": "../../Infra/Tesla.Infra/Tesla.Infra.csproj",
       "msbuildProject": "../../Infra/Tesla.Infra/Tesla.Infra.csproj"
     },
-    "Tesla.Service/1.0.0": {
-      "type": "project",
-      "path": "../../Service/Tesla.Service/Tesla.Service.csproj",
-      "msbuildProject": "../../Service/Tesla.Service/Tesla.Service.csproj"
-    },
     "Tesla.Util/1.0.0": {
       "type": "project",
       "path": "../Tesla.Util/Tesla.Util.csproj",
@@ -5184,8 +5165,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Tesla.Domain >= 1.0.0",
-      "Tesla.Infra >= 1.0.0",
-      "Tesla.Service >= 1.0.0"
+      "Tesla.Infra >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5228,9 +5208,6 @@
             },
             "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Infra\\Tesla.Infra\\Tesla.Infra.csproj": {
               "projectPath": "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Infra\\Tesla.Infra\\Tesla.Infra.csproj"
-            },
-            "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Service\\Tesla.Service\\Tesla.Service.csproj": {
-              "projectPath": "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Service\\Tesla.Service\\Tesla.Service.csproj"
             }
           }
         }
