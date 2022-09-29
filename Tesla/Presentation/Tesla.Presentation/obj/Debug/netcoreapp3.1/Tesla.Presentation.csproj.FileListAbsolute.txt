@@ -62,3 +62,8 @@ C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\bin\Debug\n
 C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\obj\Debug\netcoreapp3.1\Tesla.Presentation.MvcApplicationPartsAssemblyInfo.cs
 C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
 C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\bin\Debug\netcoreapp3.1\Tesla.Aplication.dll
+C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\bin\Debug\netcoreapp3.1\Tesla.DomainService.dll
+C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\bin\Debug\netcoreapp3.1\Tesla.Aplication.pdb
+C:\projetos\tesla\TeslaBackEnd\Tesla\Presentation\Tesla.Presentation\bin\Debug\netcoreapp3.1\Tesla.DomainService.pdb

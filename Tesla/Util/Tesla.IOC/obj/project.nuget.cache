@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vCuhrxgKhHvfrWOiT7o3iXTWC3tJthv6y5P8yj0eyGFe79H73Yc2dopRR3ZXQzfY2/skOIZZLcnCb2zROmW0yA==",
+  "dgSpecHash": "muRz/WCzvYAj8j55O8zG87FJSPZwDTli2CFZOwPhwG/E80rY+kJ/ZGLVtZaO/OKzELMcKf6HJYMAJVRBFOpcyw==",
   "success": true,
   "projectFilePath": "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Util\\Tesla.IOC\\Tesla.IOC.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\elirw\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\elirw\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\elirw\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\elirw\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -59,7 +60,7 @@
     "C:\\Users\\elirw\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
     "C:\\Users\\elirw\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
     "C:\\Users\\elirw\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
-    "C:\\Users\\elirw\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
+    "C:\\Users\\elirw\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
     "C:\\Users\\elirw\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\elirw\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\elirw\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",

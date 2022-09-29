@@ -1,18 +1,25 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using System;
+using System.Data;
 using Tesla.Domain.Domain;
 
 namespace Tesla.Infra.Context
 {
-    public class EfCore: DbContext
+    public class EfCore: IDisposable
     {
-        public DbSet<Products> Products { get; set; }
-        public DbSet<Categories> Categories { get; set; }
-        public DbSet<FreightTable> FreightTables { get; set; }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public IDbConnection Connection { get; }
+        public IDbTransaction Transaction { get; set; }
+        public readonly IConfiguration configuration;
+        public EfCore(IConfiguration config)
         {
-
-            optionsBuilder.UseSqlServer(Util.Constant.GetStrinConnection);
+            configuration = config;
+            Connection = new SqlConnection(Util.Constant.GetStrinConnection);
+            Connection.Open();
         }
+
+        public void Dispose()=> Connection.Dispose();
+        
     }
 }

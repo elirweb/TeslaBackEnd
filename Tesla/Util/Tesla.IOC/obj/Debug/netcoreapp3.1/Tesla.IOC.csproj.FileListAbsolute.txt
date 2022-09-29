@@ -15,3 +15,7 @@ C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\obj\Debug\netcoreapp3.1\Tesl
 C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\obj\Debug\netcoreapp3.1\Tesla.IOC.csproj.CopyComplete
 C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\obj\Debug\netcoreapp3.1\Tesla.IOC.dll
 C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\obj\Debug\netcoreapp3.1\Tesla.IOC.pdb
+C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.Aplication.dll
+C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.DomainService.dll
+C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.Aplication.pdb
+C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.DomainService.pdb

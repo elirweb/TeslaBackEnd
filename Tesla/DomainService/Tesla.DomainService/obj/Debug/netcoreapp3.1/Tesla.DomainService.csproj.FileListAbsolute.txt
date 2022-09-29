@@ -8,3 +8,10 @@ C:\projetos\tesla\TeslaBackEnd\Tesla\DomainService\Tesla.DomainService\obj\Debug
 C:\projetos\tesla\TeslaBackEnd\Tesla\DomainService\Tesla.DomainService\obj\Debug\netcoreapp3.1\Tesla.DomainService.csproj.CoreCompileInputs.cache
 C:\projetos\tesla\TeslaBackEnd\Tesla\DomainService\Tesla.DomainService\obj\Debug\netcoreapp3.1\Tesla.DomainService.dll
 C:\projetos\tesla\TeslaBackEnd\Tesla\DomainService\Tesla.DomainService\obj\Debug\netcoreapp3.1\Tesla.DomainService.pdb
+C:\projetos\tesla\TeslaBackEnd\Tesla\DomainService\Tesla.DomainService\bin\Debug\netcoreapp3.1\Tesla.Domain.dll
+C:\projetos\tesla\TeslaBackEnd\Tesla\DomainService\Tesla.DomainService\bin\Debug\netcoreapp3.1\Tesla.Infra.dll
+C:\projetos\tesla\TeslaBackEnd\Tesla\DomainService\Tesla.DomainService\bin\Debug\netcoreapp3.1\Tesla.Util.dll
+C:\projetos\tesla\TeslaBackEnd\Tesla\DomainService\Tesla.DomainService\bin\Debug\netcoreapp3.1\Tesla.Infra.pdb
+C:\projetos\tesla\TeslaBackEnd\Tesla\DomainService\Tesla.DomainService\bin\Debug\netcoreapp3.1\Tesla.Domain.pdb
+C:\projetos\tesla\TeslaBackEnd\Tesla\DomainService\Tesla.DomainService\bin\Debug\netcoreapp3.1\Tesla.Util.pdb
+C:\projetos\tesla\TeslaBackEnd\Tesla\DomainService\Tesla.DomainService\obj\Debug\netcoreapp3.1\Tesla.DomainService.csproj.CopyComplete

@@ -4,9 +4,12 @@ using System.Text;
 
 namespace Tesla.Infra.Common
 {
-    public interface IRepository<T> where T :class
+    public interface IRepository: IDisposable
     {
-        List<T> Get();
-        T GetById(int id);
+        
+    }
+
+    public interface IRepository<T> where T : class {
+        void dispose();
     }
 }
