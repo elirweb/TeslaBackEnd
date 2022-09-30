@@ -8,25 +8,25 @@ namespace Tesla.IOC
     {
         public static void Register(IServiceCollection service)
         {
+            #region App
+            service.AddScoped<Aplication.Interfaces.IProduct, Aplication.App.ProductApp>();
+            service.AddScoped<Aplication.Interfaces.IFreightTables, Aplication.App.FreightTablesApp>();
 
-            service.AddScoped<Tesla.Aplication.Interfaces.IProduct, Tesla.Aplication.App.ProductApp>();
+            #endregion
+            #region Service
+            service.AddScoped<DomainService.Interfaces.IProduct, DomainService.Service.ProductService>();
+            service.AddScoped<DomainService.Interfaces.IFreightTables, DomainService.Service.FreightTablesService>();
+            #endregion
 
-            service.AddScoped<Tesla.Aplication.Interfaces.IFreightTables, Tesla.Aplication.App.FreightTablesApp>();
-          
-            service.AddScoped<Tesla.DomainService.Interfaces.IProduct, Tesla.DomainService.Service.ProductService>();
+            #region Infra
+            service.AddScoped<Infra.Interfaces.IProductRepository, Infra.Repository.ProductsRepository>();
+            service.AddScoped<Infra.Interfaces.IFreightTablesRepository, Infra.Repository.FreightTableRepository>();
+            #endregion
 
-            service.AddScoped<Tesla.DomainService.Interfaces.IFreightTables, Tesla.DomainService.Service.FreightTablesService>();
-
-
-            service.AddScoped<Tesla.Domain.Interfaces.IProduct, Tesla.Infra.Repository.ProductsRepository>();
-
-            service.AddScoped<Tesla.Domain.Interfaces.IFreightTable, Tesla.Infra.Repository.FreightTableRepository>();
-
-           
+            #region Db
             service.AddScoped(typeof(IRepository<>), typeof(RepositoryBase<>));
-
             service.AddScoped<Infra.Context.EfCore>();
-
+            #endregion
         }
     }
 }

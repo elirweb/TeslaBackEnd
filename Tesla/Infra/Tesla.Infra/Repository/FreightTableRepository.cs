@@ -1,12 +1,12 @@
 ﻿using Dapper;
 using System.Linq;
 using Tesla.Domain.Domain;
-using Tesla.Domain.Interfaces;
 using Tesla.Infra.Context;
+using Tesla.Infra.Interfaces;
 
 namespace Tesla.Infra.Repository
 {
-    public class FreightTableRepository : Common.RepositoryBase<Products>, IFreightTable
+    public class FreightTableRepository : Common.RepositoryBase<Products>, IFreightTablesRepository
     {
         private EfCore context;
 

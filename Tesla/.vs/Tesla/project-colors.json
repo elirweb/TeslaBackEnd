@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5b188f2f-8dcb-4a86-8930-917efafb2eb5": {
+      "ProjectGuid": "5b188f2f-8dcb-4a86-8930-917efafb2eb5",
+      "DisplayName": "Tesla.Infra",
+      "ColorIndex": 0
+    },
+    "6b6f009a-9a16-410a-870e-afb7216c5ceb": {
+      "ProjectGuid": "6b6f009a-9a16-410a-870e-afb7216c5ceb",
+      "DisplayName": "Tesla.Presentation",
+      "ColorIndex": 1
+    },
+    "d117f44c-84dd-4552-852c-7a491c80cb7e": {
+      "ProjectGuid": "d117f44c-84dd-4552-852c-7a491c80cb7e",
+      "DisplayName": "Tesla.DomainService",
+      "ColorIndex": 2
+    },
+    "f99e2b84-dbd7-4abb-8ef5-1b1636b7fd65": {
+      "ProjectGuid": "f99e2b84-dbd7-4abb-8ef5-1b1636b7fd65",
+      "DisplayName": "Tesla.IOC",
+      "ColorIndex": 3
+    },
+    "637a51eb-74c6-4e61-907b-1d42cd6ec557": {
+      "ProjectGuid": "637a51eb-74c6-4e61-907b-1d42cd6ec557",
+      "DisplayName": "Tesla.Aplication",
+      "ColorIndex": 4
+    },
+    "91ccace2-4040-46cf-8f46-b437aa48b704": {
+      "ProjectGuid": "91ccace2-4040-46cf-8f46-b437aa48b704",
+      "DisplayName": "Tesla.Domain",
+      "ColorIndex": 5
+    },
+    "d94b8942-fda1-45f5-a038-acaee67e61c5": {
+      "ProjectGuid": "d94b8942-fda1-45f5-a038-acaee67e61c5",
+      "DisplayName": "Tesla.Util",
+      "ColorIndex": 6
+    }
+  },
+  "NextColorIndex": 7
+}

@@ -6,27 +6,25 @@ namespace Tesla.DomainService.Service
 {
     public class ProductService : ServiceBase, DomainService.Interfaces.IProduct
     {
-        private readonly Domain.Interfaces.IProduct product;
-        private readonly Infra.Common.IRepository repository;
-        public ProductService(Infra.Common.IRepository repo, Domain.Interfaces.IProduct prod)
-            : base(repo)
+        private readonly Infra.Interfaces.IProductRepository productRepository;
+        public ProductService(Infra.Interfaces.IProductRepository product)
+            : base(product)
         {
-            product = prod;
-            repository = repo;
+            productRepository = product;
         }
         public List<Products> BestSaller()
         {
-            return product.BestSaller();
+            return productRepository.BestSaller();
         }
 
         public List<Products> GetAll(string ordination)
         {
-            return product.GetAll(ordination);
+            return productRepository.GetAll(ordination);
         }
 
         public List<Products> GetProductbyParameter(string parameter)
         {
-            return product.GetProductbyParameter(parameter);
+            return productRepository.GetProductbyParameter(parameter);
         }
     }
 }

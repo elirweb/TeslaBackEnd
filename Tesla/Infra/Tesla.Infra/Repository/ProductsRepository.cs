@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using Tesla.Domain.Domain;
-using Tesla.Domain.Interfaces;
 using Tesla.Infra.Context;
+using Tesla.Infra.Interfaces;
 
 namespace Tesla.Infra.Repository
 {
-    public class ProductsRepository : Common.RepositoryBase<Products>, IProduct
+    public class ProductsRepository : Common.RepositoryBase<Products>, IProductRepository
     {
         private EfCore context;
 

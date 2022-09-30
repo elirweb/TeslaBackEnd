@@ -2,6 +2,6 @@
 {
     public interface IFreightTables
     {
-        Domain.Domain.FreightTable GetFreight(string StartZipCode, string endZipCode);
+        Domain.Domain.FreightTable GetFreight(string startZipCode, string endZipCode);
     }
 }

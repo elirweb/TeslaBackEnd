@@ -1,4 +1,6 @@
-﻿namespace Tesla.DomainService.Interfaces
+﻿using Tesla.Infra.Common;
+
+namespace Tesla.DomainService.Interfaces
 {
     public interface IFreightTables
     {

@@ -44,9 +44,8 @@ namespace Tesla.Presentation
                 {
                     Version = "v1.1.0",
                     Title = "Tesla",
-                    Description = "Prova",
-                    TermsOfService = new Uri("https://www.uol.com.br"),
-                    Contact = new OpenApiContact { Email = "elirweb@gmail.com", Name = "Elir", Url = new Uri("https://www.uol.com.br") }
+                    Description = "",
+                    Contact = new OpenApiContact { Email = "", Name = "" }
 
 
                 }

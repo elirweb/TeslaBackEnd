@@ -1,9 +1,10 @@
 ﻿using System.Collections.Generic;
 using Tesla.Domain.Domain;
+using Tesla.Infra.Common;
 
 namespace Tesla.DomainService.Interfaces
 {
-    public interface IProduct
+    public interface IProduct: IRepository
     {
         List<Products> GetAll(string ordination);
 

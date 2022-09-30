@@ -8,3 +8,12 @@ C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.Util\obj\Debug\netcoreapp3.1\Tes
 C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.Util\obj\Debug\netcoreapp3.1\Tesla.Util.csproj.CoreCompileInputs.cache
 C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.Util\obj\Debug\netcoreapp3.1\Tesla.Util.dll
 C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.Util\obj\Debug\netcoreapp3.1\Tesla.Util.pdb
+C:\work\projeto\TeslaBackEnd\Tesla\Util\Tesla.Util\bin\Debug\netcoreapp3.1\Tesla.Util.deps.json
+C:\work\projeto\TeslaBackEnd\Tesla\Util\Tesla.Util\bin\Debug\netcoreapp3.1\Tesla.Util.dll
+C:\work\projeto\TeslaBackEnd\Tesla\Util\Tesla.Util\bin\Debug\netcoreapp3.1\Tesla.Util.pdb
+C:\work\projeto\TeslaBackEnd\Tesla\Util\Tesla.Util\obj\Debug\netcoreapp3.1\Tesla.Util.GeneratedMSBuildEditorConfig.editorconfig
+C:\work\projeto\TeslaBackEnd\Tesla\Util\Tesla.Util\obj\Debug\netcoreapp3.1\Tesla.Util.AssemblyInfoInputs.cache
+C:\work\projeto\TeslaBackEnd\Tesla\Util\Tesla.Util\obj\Debug\netcoreapp3.1\Tesla.Util.AssemblyInfo.cs
+C:\work\projeto\TeslaBackEnd\Tesla\Util\Tesla.Util\obj\Debug\netcoreapp3.1\Tesla.Util.csproj.CoreCompileInputs.cache
+C:\work\projeto\TeslaBackEnd\Tesla\Util\Tesla.Util\obj\Debug\netcoreapp3.1\Tesla.Util.dll
+C:\work\projeto\TeslaBackEnd\Tesla\Util\Tesla.Util\obj\Debug\netcoreapp3.1\Tesla.Util.pdb

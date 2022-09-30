@@ -4,17 +4,17 @@ using Tesla.Infra.Common;
 
 namespace Tesla.DomainService.Service
 {
-    public class FreightTablesService : ServiceBase, DomainService.Interfaces.IFreightTables
+    public class FreightTablesService : ServiceBase, Interfaces.IFreightTables
     {
-        private readonly Domain.Interfaces.IFreightTable freightTable;
-        public FreightTablesService(IRepository repo, Domain.Interfaces.IFreightTable freight) : base(repo)
+     private Infra.Interfaces.IFreightTablesRepository freightTablesRepository;
+        public FreightTablesService(Infra.Interfaces.IFreightTablesRepository freight) : base(freight)
         {
-            freightTable = freight;
+            freightTablesRepository = freight;
         }
 
-        public FreightTable GetFreight(string StartZipCode, string endZipCode)
+        public FreightTable GetFreight(string startZipCode, string endZipCode)
         {
-            return freightTable.GetFreight(StartZipCode, endZipCode);
+            return freightTablesRepository.GetFreight(startZipCode, endZipCode);
         }
     }
 }
