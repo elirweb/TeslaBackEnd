@@ -36,6 +36,7 @@
           "Microsoft.Extensions.PlatformAbstractions": "1.1.0",
           "Microsoft.OpenApi": "1.4.2",
           "Swashbuckle.AspNetCore": "6.4.0",
+          "Tesla.Aplication": "1.0.0",
           "Tesla.IOC": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",

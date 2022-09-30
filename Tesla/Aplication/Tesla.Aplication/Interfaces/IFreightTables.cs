@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Tesla.Aplication.Interfaces
+﻿namespace Tesla.Aplication.Interfaces
 {
     public interface IFreightTables
     {
-        Domain.Domain.FreightTable Calculation(string StartZipCode, string endZipCode);
+        Domain.Domain.FreightTable GetFreight(string StartZipCode, string endZipCode);
     }
 }

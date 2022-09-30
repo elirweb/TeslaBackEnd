@@ -1,9 +1,13 @@
 C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.IOC.deps.json
 C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.IOC.dll
 C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.IOC.pdb
+C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.Aplication.dll
 C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.Domain.dll
+C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.DomainService.dll
 C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.Infra.dll
 C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.Util.dll
+C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.Aplication.pdb
+C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.DomainService.pdb
 C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.Domain.pdb
 C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.Infra.pdb
 C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.Util.pdb
@@ -15,7 +19,3 @@ C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\obj\Debug\netcoreapp3.1\Tesl
 C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\obj\Debug\netcoreapp3.1\Tesla.IOC.csproj.CopyComplete
 C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\obj\Debug\netcoreapp3.1\Tesla.IOC.dll
 C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\obj\Debug\netcoreapp3.1\Tesla.IOC.pdb
-C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.Aplication.dll
-C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.DomainService.dll
-C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.Aplication.pdb
-C:\projetos\tesla\TeslaBackEnd\Tesla\Util\Tesla.IOC\bin\Debug\netcoreapp3.1\Tesla.DomainService.pdb

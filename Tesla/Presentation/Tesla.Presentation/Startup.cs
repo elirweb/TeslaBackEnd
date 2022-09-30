@@ -1,17 +1,17 @@
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.PlatformAbstractions;
+using Microsoft.OpenApi.Models;
+using System;
 using System.Collections.Generic;
 using System.IO;
-using System;
-using Tesla.IOC;
-using Microsoft.OpenApi.Models;
-using Microsoft.AspNetCore.Diagnostics;
 using System.Net;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.PlatformAbstractions;
+using Tesla.IOC;
 
 namespace Tesla.Presentation
 {
@@ -95,7 +95,7 @@ namespace Tesla.Presentation
             });
 
 
-            
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -103,7 +103,7 @@ namespace Tesla.Presentation
         {
             //if (env.IsDevelopment())
             //{
-                app.UseDeveloperExceptionPage();
+            app.UseDeveloperExceptionPage();
             //}
 
             app.UseHttpsRedirection();

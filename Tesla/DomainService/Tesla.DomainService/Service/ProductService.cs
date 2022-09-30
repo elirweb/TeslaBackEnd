@@ -8,7 +8,7 @@ namespace Tesla.DomainService.Service
     {
         private readonly Domain.Interfaces.IProduct product;
         private readonly Infra.Common.IRepository repository;
-        public ProductService(Infra.Common.IRepository repo, Domain.Interfaces.IProduct prod ) 
+        public ProductService(Infra.Common.IRepository repo, Domain.Interfaces.IProduct prod)
             : base(repo)
         {
             product = prod;

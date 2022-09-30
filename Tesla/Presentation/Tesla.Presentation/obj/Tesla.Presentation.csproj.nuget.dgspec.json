@@ -311,6 +311,9 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+              "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Aplication\\Tesla.Aplication\\Tesla.Aplication.csproj": {
+                "projectPath": "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Aplication\\Tesla.Aplication\\Tesla.Aplication.csproj"
+              },
               "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Util\\Tesla.IOC\\Tesla.IOC.csproj": {
                 "projectPath": "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Util\\Tesla.IOC\\Tesla.IOC.csproj"
               }

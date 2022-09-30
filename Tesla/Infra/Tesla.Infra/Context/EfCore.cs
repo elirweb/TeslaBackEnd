@@ -1,13 +1,11 @@
 ﻿using Microsoft.Data.SqlClient;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Data;
-using Tesla.Domain.Domain;
 
 namespace Tesla.Infra.Context
 {
-    public class EfCore: IDisposable
+    public class EfCore : IDisposable
     {
         public IDbConnection Connection { get; }
         public IDbTransaction Transaction { get; set; }
@@ -19,7 +17,7 @@ namespace Tesla.Infra.Context
             Connection.Open();
         }
 
-        public void Dispose()=> Connection.Dispose();
-        
+        public void Dispose() => Connection.Dispose();
+
     }
 }

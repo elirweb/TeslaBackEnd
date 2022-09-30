@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Tesla.Util
+﻿namespace Tesla.Util
 {
     public class Constant
     {

@@ -1,10 +1,9 @@
-﻿using System;
+﻿using Dapper;
 using System.Collections.Generic;
+using System.Linq;
 using Tesla.Domain.Domain;
 using Tesla.Domain.Interfaces;
 using Tesla.Infra.Context;
-using Dapper;
-using System.Linq;
 
 namespace Tesla.Infra.Repository
 {
@@ -35,7 +34,7 @@ namespace Tesla.Infra.Repository
                         WHERE prod.Stock  = (prod.Stock - prod.StockReserved) AND prod.Stock >0
                         order by prod.Name @order ";
 
-            return context.Connection.Query<Products>(query, new { order= order }).ToList();
+            return context.Connection.Query<Products>(query, new { order = order }).ToList();
         }
 
         public List<Products> GetProductbyParameter(string parameter)

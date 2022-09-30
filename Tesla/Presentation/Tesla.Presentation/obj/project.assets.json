@@ -7570,6 +7570,7 @@
       "Microsoft.Extensions.PlatformAbstractions >= 1.1.0",
       "Microsoft.OpenApi >= 1.4.2",
       "Swashbuckle.AspNetCore >= 6.4.0",
+      "Tesla.Aplication >= 1.0.0",
       "Tesla.IOC >= 1.0.0"
     ]
   },
@@ -7608,6 +7609,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Aplication\\Tesla.Aplication\\Tesla.Aplication.csproj": {
+              "projectPath": "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Aplication\\Tesla.Aplication\\Tesla.Aplication.csproj"
+            },
             "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Util\\Tesla.IOC\\Tesla.IOC.csproj": {
               "projectPath": "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Util\\Tesla.IOC\\Tesla.IOC.csproj"
             }

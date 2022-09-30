@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Tesla.Domain.Domain
+﻿namespace Tesla.Domain.Domain
 {
     public class FreightTable
     {

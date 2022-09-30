@@ -14,7 +14,7 @@ namespace Tesla.Infra.Repository
         {
             context = efCore;
         }
-        public FreightTable Calculation(string StartZipCode, string endZipCode)
+        public FreightTable GetFreight(string StartZipCode, string endZipCode)
         {
             var query = @"SELECT DeliveryTime [Tempo de Entrega], [Value] as [Valor do Frete]  FROM FreightTable
                             WHERE StartZipCode BETWEEN @StartZipCode AND @endZipCode  "

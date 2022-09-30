@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Tesla.Domain.Domain;
+﻿using Tesla.Domain.Domain;
 
 namespace Tesla.Aplication.App
 {
@@ -12,9 +9,9 @@ namespace Tesla.Aplication.App
         {
             this.freightTables = freight;
         }
-        public FreightTable Calculation(string StartZipCode, string endZipCode)
+        public FreightTable GetFreight(string startZipCode, string endZipCode)
         {
-            return freightTables.Calculation(StartZipCode, endZipCode); 
+            return freightTables.GetFreight(startZipCode, endZipCode);
         }
     }
 }

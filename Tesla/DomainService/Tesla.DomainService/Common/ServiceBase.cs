@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using Tesla.Infra.Common;
 
 namespace Tesla.DomainService.Common
@@ -15,7 +13,8 @@ namespace Tesla.DomainService.Common
         }
         public void Dispose()
         {
-            if (repository != null) { 
+            if (repository != null)
+            {
                 repository.Dispose();
             }
         }
