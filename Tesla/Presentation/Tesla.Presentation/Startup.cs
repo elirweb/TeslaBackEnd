@@ -93,8 +93,6 @@ namespace Tesla.Presentation
                 }
             });
 
-
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -127,7 +125,7 @@ namespace Tesla.Presentation
             );
 
             app.UseSwagger();
-            app.UseRouting();
+           
             app.UseSwaggerUI(setup =>
             {
                 setup.SwaggerEndpoint("/swagger/v1/swagger.json", "Tesla");
@@ -137,6 +135,13 @@ namespace Tesla.Presentation
             .AllowAnyOrigin()
             .AllowAnyMethod()
             .AllowAnyHeader());
+
+            app.UseRouting();
+
+            //app.UseAuthentication();
+       
+            app.UseEndpoints(endpoints => endpoints.MapControllers(
+                ));
         }
     }
 }

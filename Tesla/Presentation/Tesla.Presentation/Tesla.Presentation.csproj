@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Aplication\Tesla.Aplication\Tesla.Aplication.csproj" />
+    <ProjectReference Include="..\..\Domain\Tesla.Domain\Tesla.Domain.csproj" />
     <ProjectReference Include="..\..\Util\Tesla.IOC\Tesla.IOC.csproj" />
   </ItemGroup>
   <ItemGroup>

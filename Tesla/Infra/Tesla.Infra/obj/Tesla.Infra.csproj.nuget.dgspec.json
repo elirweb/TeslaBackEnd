@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\work\\projeto\\TeslaBackEnd\\Tesla\\Infra\\Tesla.Infra\\Tesla.Infra.csproj": {}
+    "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Infra\\Tesla.Infra\\Tesla.Infra.csproj": {}
   },
   "projects": {
-    "C:\\work\\projeto\\TeslaBackEnd\\Tesla\\Domain\\Tesla.Domain\\Tesla.Domain.csproj": {
+    "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Domain\\Tesla.Domain\\Tesla.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\work\\projeto\\TeslaBackEnd\\Tesla\\Domain\\Tesla.Domain\\Tesla.Domain.csproj",
+        "projectUniqueName": "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Domain\\Tesla.Domain\\Tesla.Domain.csproj",
         "projectName": "Tesla.Domain",
-        "projectPath": "C:\\work\\projeto\\TeslaBackEnd\\Tesla\\Domain\\Tesla.Domain\\Tesla.Domain.csproj",
-        "packagesPath": "C:\\Users\\e.de.assis.ribeiro\\.nuget\\packages\\",
-        "outputPath": "C:\\work\\projeto\\TeslaBackEnd\\Tesla\\Domain\\Tesla.Domain\\obj\\",
+        "projectPath": "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Domain\\Tesla.Domain\\Tesla.Domain.csproj",
+        "packagesPath": "C:\\Users\\elirw\\.nuget\\packages\\",
+        "outputPath": "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Domain\\Tesla.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\e.de.assis.ribeiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\elirw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +27,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/Superdigital-HoldCo/_packaging/Superdigital-HoldCo/nuget/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -46,7 +51,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -55,21 +61,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.109\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\work\\projeto\\TeslaBackEnd\\Tesla\\Infra\\Tesla.Infra\\Tesla.Infra.csproj": {
+    "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Infra\\Tesla.Infra\\Tesla.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\work\\projeto\\TeslaBackEnd\\Tesla\\Infra\\Tesla.Infra\\Tesla.Infra.csproj",
+        "projectUniqueName": "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Infra\\Tesla.Infra\\Tesla.Infra.csproj",
         "projectName": "Tesla.Infra",
-        "projectPath": "C:\\work\\projeto\\TeslaBackEnd\\Tesla\\Infra\\Tesla.Infra\\Tesla.Infra.csproj",
-        "packagesPath": "C:\\Users\\e.de.assis.ribeiro\\.nuget\\packages\\",
-        "outputPath": "C:\\work\\projeto\\TeslaBackEnd\\Tesla\\Infra\\Tesla.Infra\\obj\\",
+        "projectPath": "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Infra\\Tesla.Infra\\Tesla.Infra.csproj",
+        "packagesPath": "C:\\Users\\elirw\\.nuget\\packages\\",
+        "outputPath": "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Infra\\Tesla.Infra\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\e.de.assis.ribeiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\elirw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -77,18 +88,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/Superdigital-HoldCo/_packaging/Superdigital-HoldCo/nuget/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\work\\projeto\\TeslaBackEnd\\Tesla\\Domain\\Tesla.Domain\\Tesla.Domain.csproj": {
-                "projectPath": "C:\\work\\projeto\\TeslaBackEnd\\Tesla\\Domain\\Tesla.Domain\\Tesla.Domain.csproj"
+              "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Domain\\Tesla.Domain\\Tesla.Domain.csproj": {
+                "projectPath": "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Domain\\Tesla.Domain\\Tesla.Domain.csproj"
               },
-              "C:\\work\\projeto\\TeslaBackEnd\\Tesla\\Util\\Tesla.Util\\Tesla.Util.csproj": {
-                "projectPath": "C:\\work\\projeto\\TeslaBackEnd\\Tesla\\Util\\Tesla.Util\\Tesla.Util.csproj"
+              "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Util\\Tesla.Util\\Tesla.Util.csproj": {
+                "projectPath": "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Util\\Tesla.Util\\Tesla.Util.csproj"
               }
             }
           }
@@ -126,7 +137,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -135,21 +147,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.109\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\work\\projeto\\TeslaBackEnd\\Tesla\\Util\\Tesla.Util\\Tesla.Util.csproj": {
+    "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Util\\Tesla.Util\\Tesla.Util.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\work\\projeto\\TeslaBackEnd\\Tesla\\Util\\Tesla.Util\\Tesla.Util.csproj",
+        "projectUniqueName": "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Util\\Tesla.Util\\Tesla.Util.csproj",
         "projectName": "Tesla.Util",
-        "projectPath": "C:\\work\\projeto\\TeslaBackEnd\\Tesla\\Util\\Tesla.Util\\Tesla.Util.csproj",
-        "packagesPath": "C:\\Users\\e.de.assis.ribeiro\\.nuget\\packages\\",
-        "outputPath": "C:\\work\\projeto\\TeslaBackEnd\\Tesla\\Util\\Tesla.Util\\obj\\",
+        "projectPath": "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Util\\Tesla.Util\\Tesla.Util.csproj",
+        "packagesPath": "C:\\Users\\elirw\\.nuget\\packages\\",
+        "outputPath": "C:\\projetos\\tesla\\TeslaBackEnd\\Tesla\\Util\\Tesla.Util\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\e.de.assis.ribeiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\elirw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -157,8 +174,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/Superdigital-HoldCo/_packaging/Superdigital-HoldCo/nuget/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -195,7 +212,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -204,7 +222,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.109\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

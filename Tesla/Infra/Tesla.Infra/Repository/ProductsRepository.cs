@@ -18,7 +18,7 @@ namespace Tesla.Infra.Repository
         public List<Products> BestSaller()
         {
             var query = @"
-                            select prod.Id, prod.Name Produto, prod.Price,prod.Photo, cat.Name as [Categoria]  FROM Products prod
+                            SELECT prod.Id, prod.Name [NameProduto], prod.Price,prod.Photo, cat.Name [NameCategoria] FROM Products prod
                             INNER JOIN Categories cat on cat.Id = prod.CategoryId
                             WHERE prod.Stock  = (prod.Stock - prod.StockReserved) AND prod.Stock >0
                             and Sales= (select Max(Sales) from Products)
@@ -27,25 +27,47 @@ namespace Tesla.Infra.Repository
             return context.Connection.Query<Products>(query).ToList();
         }
 
-        public List<Products> GetAll(string order)
+        public List<Products> GetAll(string parameter)
         {
-            var query = @"SELECT prod.Id, prod.Name [Produto], prod.Price,prod.Photo, cat.Name Categoria  FROM Products prod
+            var query = string.Empty;
+            if (parameter.Equals("asc")) 
+            {
+                query = @"SELECT prod.Id, prod.Name [NameProduto], prod.Price,prod.Photo, cat.Name [NameCategoria] FROM Products prod
                         INNER JOIN Categories cat on cat.Id = prod.CategoryId
                         WHERE prod.Stock  = (prod.Stock - prod.StockReserved) AND prod.Stock >0
-                        order by prod.Name @order ";
+                        order by prod.Name asc ";
+            } 
+            else 
+            {
+                query = @"SELECT prod.Id, prod.Name [NameProduto], prod.Price,prod.Photo, cat.Name as [NameCategoria]  FROM Products prod
+                        INNER JOIN Categories cat on cat.Id = prod.CategoryId
+                        WHERE prod.Stock  = (prod.Stock - prod.StockReserved) AND prod.Stock >0
+                        order by prod.Name desc ";
 
-            return context.Connection.Query<Products>(query, new { order = order }).ToList();
+            }
+            
+            return context.Connection.Query<Products>(query).ToList();
         }
 
         public List<Products> GetProductbyParameter(string parameter)
         {
-            var query = @"select
-                            prod.Id, prod.Name Produto, prod.Price,prod.Photo, cat.Name as [Categoria]  FROM Products prod
+            string query = string.Empty;
+            if (parameter.Equals("(select Max(Price) from Products)"))
+            {
+                query = @"SELECT prod.Id, prod.Name [NameProduto], prod.Price,prod.Photo, cat.Name [NameCategoria] FROM Products prod
                             INNER JOIN Categories cat on cat.Id = prod.CategoryId
                             WHERE prod.Stock  = (prod.Stock - prod.StockReserved) AND prod.Stock >0
-                            and prod.Price= @parameter ";
+                            and prod.Price= (select Max(Price) from Products)";
+            }
+            else {
+                query = @"SELECT prod.Id, prod.Name [NameProduto], prod.Price,prod.Photo, cat.Name [NameCategoria] FROM Products prod
+                            INNER JOIN Categories cat on cat.Id = prod.CategoryId
+                            WHERE prod.Stock  = (prod.Stock - prod.StockReserved) AND prod.Stock >0
+                            and Sales= (select Max(Sales) from Products)";
+            }
+           
 
-            return context.Connection.Query<Products>(query, new { parameter = parameter }).ToList();
+            return context.Connection.Query<Products>(query).ToList();
         }
     }
 }

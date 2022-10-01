@@ -17,9 +17,9 @@ namespace Tesla.Aplication.App
             return _product.BestSaller();
         }
 
-        public List<Products> GetAll(string ordination)
+        public List<Products> GetAll(string parameter)
         {
-            return _product.GetAll(ordination);
+            return _product.GetAll(parameter);
         }
 
         public List<Products> GetProductbyParameter(string parameter)

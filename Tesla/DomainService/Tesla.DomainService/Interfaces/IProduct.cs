@@ -6,7 +6,7 @@ namespace Tesla.DomainService.Interfaces
 {
     public interface IProduct: IRepository
     {
-        List<Products> GetAll(string ordination);
+        List<Products> GetAll(string parameter);
 
         List<Products> BestSaller();
 
