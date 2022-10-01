@@ -11,5 +11,7 @@ namespace Tesla.DomainService.Interfaces
         List<Products> BestSaller();
 
         List<Products> GetProductbyParameter(string parameter);
+
+        Products GetByld(int id);
     }
 }

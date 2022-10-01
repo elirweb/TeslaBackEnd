@@ -12,5 +12,7 @@ namespace Tesla.Infra.Interfaces
         List<Products> BestSaller();
 
         List<Products> GetProductbyParameter(string parameter);
+
+        Products GetById(int id);
     }
 }

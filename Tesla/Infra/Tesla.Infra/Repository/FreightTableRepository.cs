@@ -16,10 +16,12 @@ namespace Tesla.Infra.Repository
         }
         public FreightTable GetFreight(string StartZipCode, string endZipCode)
         {
-            var query = @"SELECT DeliveryTime,  [Value]  FROM FreightTable
-                            WHERE StartZipCode = @StartZipCode  AND EndZipCode = @endZipCode "
-            ;
+            string query = string.Empty;
+            
+            query = @"SELECT DeliveryTime,  [Value]  FROM FreightTable
+                        WHERE StartZipCode BETWEEN @StartZipCode  AND  @endZipCode ";
 
+     
             return context.Connection.Query<FreightTable>(query, new { StartZipCode = StartZipCode, endZipCode = endZipCode }).FirstOrDefault();
         }
     }

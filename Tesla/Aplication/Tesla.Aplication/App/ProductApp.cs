@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Reflection.Metadata;
 using Tesla.Domain.Domain;
 using Tesla.DomainService.Interfaces;
 namespace Tesla.Aplication.App
@@ -20,6 +21,11 @@ namespace Tesla.Aplication.App
         public List<Products> GetAll(string parameter)
         {
             return _product.GetAll(parameter);
+        }
+
+        public Products GetById(int id)
+        {
+            return _product.GetByld(id);
         }
 
         public List<Products> GetProductbyParameter(string parameter)

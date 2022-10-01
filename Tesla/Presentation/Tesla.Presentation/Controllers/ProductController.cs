@@ -61,5 +61,21 @@ namespace Tesla.Presentation.Api
         {
             return Ok(this.productApp.BestSaller());
         }
+
+
+        /// <summary>
+        /// Get By Id
+        /// </summary>
+        /// <param name="id">obj parameter</param>
+        /// <returns></returns>
+        [HttpGet, Route("getById/{id}")]
+        [ProducesResponseType(typeof(Domain.Domain.Products), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(Domain.Domain.Products), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(Domain.Domain.Products), StatusCodes.Status401Unauthorized)]
+        [ProducesResponseType(typeof(Domain.Domain.Products), StatusCodes.Status500InternalServerError)]
+        public ActionResult GetById([FromRoute] int id)
+        {
+            return Ok(this.productApp.GetById(id));
+        }
     }
 }
